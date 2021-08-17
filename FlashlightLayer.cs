@@ -14,7 +14,7 @@ namespace minusGN
         
         public FlashlightLayer(Mod mod) : base("flashlight", InterfaceScaleType.Game)
         {
-            _flashlightTexture = mod.GetTexture("Images/Flashlight");
+            _flashlightTexture = mod.Assets.Request<Texture2D>("Images/Flashlight").Value;
         }
         
         protected override bool DrawSelf()
