@@ -2,3 +2,8 @@
 
 a champion above champions: https://osu.ppy.sh/users/895581
 source code: https://github.com/acrylic-style/-GN
+
+Layer configuration:
+- 0 = all UIs are visible
+- 19 = map is hidden (map controls are visible)
+- 33 = almost everything (including hotbars) are hidden
