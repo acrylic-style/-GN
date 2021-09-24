@@ -15,8 +15,8 @@ namespace minusGN
         
         [DefaultValue(0)]
         [Label("Layer")]
-        [Tooltip("0 = All UIs are visible")]
-        [Range(0, 30)]
+        [Tooltip("0 = All UIs are visible; 19 = map is hidden; 33 = (almost) everything is hidden")]
+        [Range(0, 50)]
         public int Layer { get; set; }
     }
 }
