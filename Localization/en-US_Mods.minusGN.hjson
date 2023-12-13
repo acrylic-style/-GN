@@ -1,0 +1,15 @@
+Configs: {
+	FlashlightConfig: {
+		Layer: {
+			Tooltip: 0 = All UIs are visible; 19 = map is hidden; 33 = (almost) everything is hidden
+			Label: Layer
+		}
+
+		AttachToCursor: {
+			Tooltip: On = Flashlight will be placed at cursor, Off = Player
+			Label: Attach flashlight to cursor instead of player
+		}
+
+		DisplayName: Flashlight Config
+	}
+}
